@@ -11,9 +11,9 @@ const SidebarLayout = ({ handleLogout }) => {
       
         
         <ul className="nav flex-column">
-           <li className="nav-item">
+           {/* <li className="nav-item">
             <Link className="nav-link" to="/">Home</Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/home">Dasboard</Link>
           </li>
